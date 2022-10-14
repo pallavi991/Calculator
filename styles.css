@@ -57,7 +57,7 @@ body{
 .btn:hover{
     background-color: rgb(58, 212, 240);
 }
-#C{
+#AC{
    /* height: 25px; */
    position:relative;
    left:75.6%;
@@ -68,7 +68,7 @@ body{
    border-radius: 20%;
    font-size: 150%;
 }
-#C:hover{
+#AC:hover{
     background-color: rgb(58, 212, 240);
 }
 .input{
@@ -81,10 +81,12 @@ body{
     margin: auto; 
     z-index: 10;
     font-size: xx-large;
-    background-color: rgb(186, 179, 179); 
+    background-color: white; 
+    text-align-last: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 input:hover{
-   background-color: white;
+   background-color: rgb(186, 179, 179);
 }
 
 .bottom-container{
