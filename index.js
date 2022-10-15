@@ -1,6 +1,6 @@
 console.log("Hello world")
 
-const inp     =    document.getElementsByClassName("input");
+const input   =    document.getElementsByClassName("input");
 const AC      =    document.getElementById("AC");
 const one     =    document.getElementById("one");
 const two     =    document.getElementById("two");
@@ -20,8 +20,11 @@ const period  =    document.getElementById("period");
 const plus    =    document.getElementById("plus");
 
 
-const btn = getElementsByClassName('btn');
+
 function myFunction() {
-    document.getElementsByClassName("intro").innerHTML = "BMW";
+    document.getElementById("input").value = "000";
+    document.getElementById("input").value = 
   }
- document.getElementsByClassName('btn'),addEventListener('click',myFunction)
+  
+ document.getElementsByClassName('AC'),addEventListener('click',myFunction);
+ document.getElementsByClassName('one'),addEventListener('click',myFunction)
